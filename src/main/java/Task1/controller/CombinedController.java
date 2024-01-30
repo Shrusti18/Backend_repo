@@ -18,7 +18,8 @@ import java.util.Map;
 import java.util.Optional;
 
 @RestController
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("http://ec2-13-127-25-66.ap-south-1.compute.amazonaws.com")
+//@CrossOrigin("*")
 @RequestMapping("/api/s/")
 
 public class CombinedController {
